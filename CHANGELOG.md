@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of the dmg cookbook.
 
+## 4.1.2 (2019-03-25)
+- fixed a bug if user has forces `ls --color=always` and `zsh`
+
 ## 4.1.1 (2018-04-06)
 
 - The dmg_package resource is now included in Chef 14 and this cookbook has been deprecated. We highly recommend updating to Chef 14 so you can use this resource without the need for a cookbook dependency.
